@@ -4,7 +4,7 @@
 
 TEST(SoudexAlgorithmSuite,generateSoundex_given_emptyString_expected_emptyString){
 
-  char soudexCode[5];
+  char soundexCode[5];
   generateSoudex("",soundexCode);
-  ASSERT_STREQ(soudexCode, "");
+  ASSERT_STREQ(soundexCode, "");
 }
