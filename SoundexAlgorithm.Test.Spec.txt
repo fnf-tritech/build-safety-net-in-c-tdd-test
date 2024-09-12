@@ -17,7 +17,7 @@ The encoding rules are as follows:
 	  
 
 Unit Testing:
-	Public Interface : generateSoundex
+	Public Interface : void generateSoundex(const char* input,char* soundexCode)
 	Verification: Verify that the output matches the expected Soundex code for each test case.
 	
 Test Cases:
