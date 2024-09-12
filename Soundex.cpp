@@ -1,6 +1,6 @@
 #include "Soundex.h"
 int checkForEmptyInput(const char* input){
-    if (input[0] == '\0')
+    if (input[0] == '0')
     {
      return 1;
     
